@@ -42,7 +42,7 @@ const Navbar = () => {
         <div
           className={
             toggle
-              ? " fixed top-0 left-0  h-full w-[60%] bg-white border-r border-green-600 ease-in-out duration-500"
+              ? " fixed top-0 left-0  h-full w-[60%] bg-gray-50 border-r border-green-600 ease-in-out duration-500"
               : " fixed left-[-100%]"
           }
         >
@@ -55,6 +55,9 @@ const Navbar = () => {
             <li className=" p-4 cursor-pointer border-gray-600">Earn</li>
             <li className=" p-4 cursor-pointer border-gray-600">Contact</li>
           </ul>
+          <button className=" ml-4 mt-4 bg-green-600 text-white px-4 py-2 rounded-md border font-normal hover:bg-white hover:text-green-600">
+            Connect Wallet
+          </button>
         </div>
       </div>
     </nav>
