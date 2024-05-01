@@ -33,8 +33,8 @@ const Hero = () => {
   };
 
   return (
-    <hero className=" w-full ">
-      <div className=" grid lg:grid-cols-2 gap-4 max-w-[1240px] mx-auto my-[150px] px-6">
+    <section className=" w-full ">
+      <div className=" grid lg:grid-cols-2 gap-4 max-w-[1240px] mx-auto md:my-[150px] sm:my-[100px] my-[60px] px-6">
         {/*Left*/}
         <div>
           <h2 className=" font-normal text-lg md:text-xl text-gray-700">
@@ -77,7 +77,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </hero>
+    </section>
   );
 };
 
