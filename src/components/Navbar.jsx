@@ -22,8 +22,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className=" z-50 sticky w-full top-0">
-      <div className=" flex justify-between items-center mx-auto my-6 px-6 max-w-[1240px]">
+    <nav className=" z-50 sticky w-full top-0 bg-slate-50">
+      <div className=" flex justify-between items-center mx-auto my-auto h-20 px-6 max-w-[1240px]">
         <h1 className=" text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold">
           Cryp<span className=" text-green-600">Fi</span>
         </h1>
