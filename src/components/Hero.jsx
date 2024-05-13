@@ -40,7 +40,7 @@ const Hero = () => {
           <h2 className=" font-normal text-lg md:text-xl text-gray-700">
             Buy & Sell Crypto 24/7 using your retirement account
           </h2>
-          <p className=" font-bold text-2xl sm:text-4xl md:text-6xl my-2">
+          <p className=" font-bold text-2xl sm:text-4xl md:text-6xl my-4">
             Invest in Cryptocurrency with your IRA
           </p>
           <p className=" font-normal text-lg md:text-xl text-gray-700">
