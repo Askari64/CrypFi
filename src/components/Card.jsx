@@ -2,7 +2,7 @@ import propTypes from "prop-types";
 import { FiArrowUpRight, FiArrowDown } from "react-icons/fi";
 const Card = ({ imgSrc, altText, name, price, change }) => {
   return (
-    <div className=" flex min-w-[70px] max-w-[150px] items-center flex-col bg-gray-100 py-2">
+    <div className=" flex min-w-[70px] max-w-[150px] items-center flex-col  py-2 gap-y-1">
       <img src={imgSrc} alt={altText} height={50} width={50} />
       <h5>{name}</h5>
       <p>${price}</p>

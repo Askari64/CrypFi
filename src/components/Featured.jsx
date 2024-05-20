@@ -20,7 +20,7 @@ const Featured = () => {
   }, []);
 
   return (
-    <section className=" w-full">
+    <section className=" w-full mx-auto">
       <div className=" grid lg:grid-cols-2 gap-4 max-w-[1240px] mx-auto md:my-[150px] sm:my-[100px] my-[60px] px-6">
         {/*Left*/}
         <div>
@@ -35,7 +35,7 @@ const Featured = () => {
           </button>
         </div>
         {/*Right*/}
-        <div className=" grid md:grid-cols-3 gap-y-5">
+        <div className=" grid grid-cols-2 md:grid-cols-3 gap-y-5 justify-center place-items-center">
           {data &&
             data.map((fetchedData) => (
               <Card
