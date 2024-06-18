@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className=" z-50 sticky w-full top-0 bg-slate-50">
       <div className=" flex justify-between items-center mx-auto my-auto h-20 px-6 max-w-[1240px]">
-        <h1 className=" text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold">
+        <h1 className=" cursor-pointer text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold">
           Cryp<span className=" text-green-600">Fi</span>
         </h1>
         <ul className=" hidden md:flex font-medium">
@@ -47,7 +47,7 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className=" text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold my-6 px-6">
+            <li className="cursor-pointer text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold my-6 px-6">
               Cryp<span className=" text-green-600">Fi</span>
             </li>
             <li className=" p-4 cursor-pointer border-gray-600">Home</li>
