@@ -28,10 +28,10 @@ const Navbar = () => {
           Cryp<span className=" text-green-600">Fi</span>
         </h1>
         <ul className=" hidden md:flex font-medium">
-          <li className=" cursor-pointer">Home</li>
-          <li className=" ml-8 cursor-pointer">Featured</li>
-          <li className=" ml-8 cursor-pointer">Earn</li>
-          <li className=" ml-8 cursor-pointer">Contact</li>
+          <li className=" cursor-pointer hover:text-green-600">Home</li>
+          <li className=" ml-8 cursor-pointer hover:text-green-600">Featured</li>
+          <li className=" ml-8 cursor-pointer hover:text-green-600">Earn</li>
+          <li className=" ml-8 cursor-pointer hover:text-green-600">Contact</li>
         </ul>
         <button className=" hidden md:block bg-green-600 text-white px-4 py-2 rounded-md border font-medium hover:bg-white hover:text-green-600">
           Connect Wallet
