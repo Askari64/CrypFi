@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { IoMdMenu, IoIosClose } from "react-icons/io";
 
@@ -25,13 +26,19 @@ const Navbar = () => {
     <nav className=" z-50 sticky w-full top-0 bg-slate-50">
       <div className=" flex justify-between items-center mx-auto my-auto h-20 px-6 max-w-[1240px]">
         <h1 className=" cursor-pointer text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold">
-          Cryp<span className=" text-green-600">Fi</span>
+          {" "}
+          <Link to="/">
+            Cryp<span className=" text-green-600">Fi</span>
+          </Link>
         </h1>
         <ul className=" hidden md:flex font-medium">
-          <li className=" cursor-pointer hover:text-green-600">Home</li>
-          <li className=" ml-8 cursor-pointer hover:text-green-600">Featured</li>
-          <li className=" ml-8 cursor-pointer hover:text-green-600">Earn</li>
-          <li className=" ml-8 cursor-pointer hover:text-green-600">Contact</li>
+          <li className=" cursor-pointer hover:text-green-600">
+            <Link to="/">Home</Link>
+          </li>
+          <li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/featured">Featured</Link>
+          </li>
+          <li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/earn">Earn</Link></li>
+          <li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/contact">Contact</Link></li>
         </ul>
         <button className=" hidden md:block bg-green-600 text-white px-4 py-2 rounded-md border font-medium hover:bg-white hover:text-green-600">
           Connect Wallet
@@ -47,13 +54,12 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="cursor-pointer text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold my-6 px-6">
-              Cryp<span className=" text-green-600">Fi</span>
+            <li className="cursor-pointer text-xl sm:text-2xl md:text-3xl text-gray-800 font-bold my-6 px-6"><Link to="/">Cryp<span className=" text-green-600">Fi</span></Link>
             </li>
-            <li className=" p-4 cursor-pointer border-gray-600">Home</li>
-            <li className=" p-4 cursor-pointer border-gray-600">Featured</li>
-            <li className=" p-4 cursor-pointer border-gray-600">Earn</li>
-            <li className=" p-4 cursor-pointer border-gray-600">Contact</li>
+            <li className=" p-4 cursor-pointer border-gray-600"><Link to="/">Home</Link></li>
+            <li className=" p-4 cursor-pointer border-gray-600"><Link to="/featured">Featured</Link></li>
+            <li className=" p-4 cursor-pointer border-gray-600"><Link to="/earn">Earn</Link></li>
+            <li className=" p-4 cursor-pointer border-gray-600"><Link to="contact">Contact</Link></li>
           </ul>
           <button className=" ml-4 mt-4 bg-green-600 text-white px-4 py-2 rounded-md border font-normal hover:bg-white hover:text-green-600">
             Connect Wallet
