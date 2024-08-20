@@ -1,4 +1,5 @@
 import cryptoPortfolio from "../assets/crypto-portfolio.png";
+import FetchFeatured from "../components/FetchFeatured";
 
 function FeaturedPage() {
   return (
@@ -24,6 +25,9 @@ function FeaturedPage() {
             alt="Crypto Dashboard"
           />
         </div>
+      </div>
+      <div className=" gap-4 max-w-[1240px] mx-auto md:my-[150px] sm:my-[100px] my-[60px] px-6">
+      <FetchFeatured/>
       </div>
     </section>
   );

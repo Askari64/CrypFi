@@ -1,6 +1,9 @@
+import Featured2 from "../components/Featured2"
 function EarnPage() {
   return (
-    <div>EarnPage</div>
+    <section>
+      <Featured2 />
+    </section>
   )
 }
 

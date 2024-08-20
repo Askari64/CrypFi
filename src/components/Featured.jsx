@@ -4,7 +4,7 @@ import Card from "./Card";
 const Featured = () => {
   const [data, setData] = useState(null);
 
-  //const apiKey = import.meta.env.VITE_API_KEY;
+  
   const url =
     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=USD&order=market_cap_desc&per_page=6&price_change_percentage=24h";
 

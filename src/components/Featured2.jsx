@@ -34,7 +34,7 @@ function Featured2() {
 
   return (
     <section className=" w-full mx-auto">
-      <div className=" grid lg:grid-cols-2 gap-4 max-w-[1240px] mx-auto md:my-[150px] sm:my-[100px] my-[60px] py-6 px-6">
+      <div className=" grid lg:grid-cols-2 gap-4 max-w-[1240px] mx-auto  py-6 px-6">
         {/*Left*/}
         <div className=" order-last sm:order-none">
           <img
