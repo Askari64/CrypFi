@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Card from "./Card";
+import Skeleton from "./Skeleton";
 const Featured = () => {
   const [data, setData] = useState(null);
 
@@ -36,7 +37,7 @@ const Featured = () => {
         </div>
         {/*Right*/}
         <div className=" grid grid-cols-2 md:grid-cols-3 gap-y-5 justify-center place-items-center">
-          {data &&
+          {!data ? Array.from({ length: 6 }, (_, index) => <Skeleton key={index} />) :
             data.map((fetchedData) => (
               <Card
                 key={fetchedData.id}

@@ -37,7 +37,7 @@ const Navbar = () => {
           </li>
           <li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/featured">Featured</Link>
           </li>
-          <li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/earn">Earn</Link></li>
+          {/*<li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/earn">Earn</Link></li>*/}
           <li className=" ml-8 cursor-pointer hover:text-green-600"><Link to="/contact">Contact</Link></li>
         </ul>
         <button className=" hidden md:block bg-green-600 text-white px-4 py-2 rounded-md border font-medium hover:bg-white hover:text-green-600">
