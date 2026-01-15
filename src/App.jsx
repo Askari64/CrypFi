@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/featured" element={<FeaturedPage />} />
-        {/*<Route path="/earn" element={<EarnPage />} /> */}
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
