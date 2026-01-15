@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
 body {
-    background-color: white;
+  overscroll-behavior-y: none;
+  background-color: white;
+  scroll-behavior: smooth;
 }
