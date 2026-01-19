@@ -58,7 +58,6 @@ const Navbar = () => {
             </li>
             <li className=" p-4 cursor-pointer border-gray-600"><Link to="/">Home</Link></li>
             <li className=" p-4 cursor-pointer border-gray-600"><Link to="/featured">Featured</Link></li>
-            <li className=" p-4 cursor-pointer border-gray-600"><Link to="/earn">Earn</Link></li>
             <li className=" p-4 cursor-pointer border-gray-600"><Link to="contact">Contact</Link></li>
           </ul>
           <button className=" ml-4 mt-4 bg-green-600 text-white px-4 py-2 rounded-md border font-normal hover:bg-white hover:text-green-600">
